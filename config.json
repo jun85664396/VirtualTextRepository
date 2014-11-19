@@ -1,0 +1,8 @@
+{
+	"redis":{
+		"host":"localhost",
+		"port":"6379",
+		"pass":"YOUR PASSWORD",
+		"repository":"YOUR USING REDIS HASH KEY"
+	}
+}

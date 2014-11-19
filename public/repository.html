@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TextRepository</title>
+<link href="/assets/styles/bootstrap.min.css" rel="stylesheet">
+<link href="/assets/styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+
+	<form class="form-signin" style="position: relative;" role="form" id="form">
+		<h2 class="form-signin-heading">Key : <%=keys%></h2>
+		<textarea class="form-control" style="display:inline;" rows="15" id="msg"><%=msg%></textarea><span class="glyphicon glyphicon-ok save-ok" style="display:none;" id="save-ok" aria-hidden="true"></span>
+	</form>
+
+</div> <!-- /container -->
+</body>
+</html>
+<input type="hidden" id="keys" value="<%=keys%>"/>
+<script src="/assets/scripts/jquery.js" type="text/javascript"></script>
+<script src="/assets/scripts/repository.js" type="text/javascript"></script>

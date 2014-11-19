@@ -1,0 +1,29 @@
+{
+  "name": "textRepository",
+  "version": "0.0.0",
+  "description": "TextRepository",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jun85664396/TextRepository"
+  },
+  "keywords": [
+    "TextRepository",
+    "WebTextRepository"
+  ],
+  "author": "JunSangPil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jun85664396/TextRepository/issues"
+  },
+  "homepage": "https://github.com/jun85664396/TextRepository",
+  "dependencies": {
+    "express": "~4.10.2",
+    "redis": "~0.12.1",
+    "ejs": "~1.0.0",
+    "body-parser": "~1.9.2"
+  }
+}
