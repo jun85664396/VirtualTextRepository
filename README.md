@@ -5,7 +5,9 @@ TextRepository
 
     1. git clone https://github.com/jun85664396/TextRepository.git
     
-    2. Edit config 
+    2. npm install
+    
+    3. Edit config 
       {
       	"redis":{
 	     	"host":"localhost",
