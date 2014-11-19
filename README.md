@@ -16,6 +16,11 @@ TextRepository
       }
     3. node app.js !
 
+#require
+
++ node
++ redis-server
+
 #use
 + express
 + ejs
